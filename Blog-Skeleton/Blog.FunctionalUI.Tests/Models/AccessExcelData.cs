@@ -16,7 +16,7 @@ namespace Blog.FunctionalUI.Tests.Models
         {
            // var path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..\\..\\DataDrivenTests\\");
         var path = @"C:\Users\DISHLIEV\Documents\Visual Studio 2015\Projects\Blog-Skeleton\Blog\Blog-Skeleton\Blog.Unit.Tests\DataDrivenTests\";
-        //    var path = ConfigurationManager.AppSettings["TestDataSheetPath"];
+      
       
             var con = string.Format(@"Provider=Microsoft.ACE.OLEDB.12.0;
 		                              Data Source = {0}; 

@@ -14,7 +14,7 @@ namespace Blog.FunctionalUI.Tests.Pages.RegistrationPages
         public static void AssertRegistrationFormError(this RegistrationPage page, string text)
         {
             Assert.AreEqual(text, page.RegistrationFormError.Text);
-            //      
+                 
         }
         public static void AssertRegistrationEmail(this RegistrationPage page, string text)
         {
