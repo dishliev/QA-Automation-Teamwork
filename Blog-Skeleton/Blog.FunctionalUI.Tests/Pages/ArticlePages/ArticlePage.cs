@@ -21,7 +21,7 @@ namespace Blog.FunctionalUI.Tests.Pages.ArticlePages
         public void NavigateTo()
         {
             this.Driver.Navigate().GoToUrl("http://localhost:60634/Article/Create");
-            //  Registration.Click();
+       
         }
 
         public void CreateArticle(CreateArticle article)

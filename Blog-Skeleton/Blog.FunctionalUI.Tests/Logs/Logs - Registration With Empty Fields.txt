@@ -1,9 +1,1 @@
-[2017-06-07T08:33:18] [Failed] RegistrationWithEmptyFields
-System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.
-  ----> NUnit.Framework.AssertionException :   Expected is <System.String[3]>, actual is <System.Collections.Generic.List`1[System.String]> with 3 elements
-  Values differ at index [2]
-  Expected string length 41 but was 31. Strings differ at index 31.
-  Expected: "The Password field is required.1111111111"
-  But was:  "The Password field is required."
-  ------------------------------------------^
-
+[2017-06-07T11:05:34] [Passed] RegistrationWithEmptyFields

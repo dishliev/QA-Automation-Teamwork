@@ -198,7 +198,7 @@ namespace Blog.FunctionalUI.Tests
         public void RegistrationWithEmptyFields()
         {
 
-            RegistrationWithNegativeData(TestContext.CurrentContext.Test.MethodName, "The Email field is required.", "The Full Name field is required.", "The Password field is required.");
+            RegistrationWithNegativeData(TestContext.CurrentContext.Test.MethodName, "The Email field is required.", "The Full Name field is required.", "The Password field is required." );
 
         }
 
