@@ -30,7 +30,7 @@ namespace Blog.FunctionalUI.Tests.Attributes
 
         public ActionTargets Targets { get; }
 
-        protected virtual string LogFilePath => Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..\\..\\Logs\\" + "Logs - " + System.Text.RegularExpressions.Regex.Replace(TestContext.CurrentContext.Test.MethodName, "((?<=[a-z])[A-Z]|[A-Z](?=[a-z]))", " $1").Trim() + ".txt");
+        protected virtual string LogFilePath => Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..\\..\\..\\Logs\\" + "Logs - " + System.Text.RegularExpressions.Regex.Replace(TestContext.CurrentContext.Test.MethodName, "((?<=[a-z])[A-Z]|[A-Z](?=[a-z]))", " $1").Trim() + ".txt");
 
 
 
