@@ -32,6 +32,16 @@ namespace Blog.FunctionalUI.Tests.Pages.ArticlePages
             ArticleCreateButton.Click();
         }
 
+        public void EditArticle(string articleContent)
+        {
+            ArticleHello.Click();
+            ArticleEditButton.Click();
+            ArticleContent.Click();
+            ArticleContent.Clear();
+            Type(ArticleContent, articleContent);
+
+            EditButtonSubmit.Click();
+        }
 
         private void Type(IWebElement element, string text)
         {

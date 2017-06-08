@@ -1,1 +1,1 @@
-[2017-06-07T11:05:24] [Passed] LoginWitInvalidEmail
+[2017-06-08T13:55:30] [Passed] LoginWitInvalidEmail

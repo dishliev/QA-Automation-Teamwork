@@ -18,9 +18,8 @@ namespace Blog.FunctionalUI.Tests.Pages.ChangePaswordPages
 
         public void NavigateTo()
         {
-            this.Driver.Navigate().GoToUrl("http://localhost:60634/Article/List");
-            LoginButtonMenu.Click();
-
+            this.Driver.Navigate().GoToUrl("http://localhost:60634/Account/Login");
+          
         }
         public void NavigateToChangePassword()
         {

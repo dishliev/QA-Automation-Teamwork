@@ -34,5 +34,11 @@ namespace Blog.FunctionalUI.Tests.Pages.LoginPages
             Assert.AreEqual(text, page.InvalidLoginError.Text);
 
         }
+        public static void AssertValidLogin(this LoginPage page, string text)
+        {
+
+            Assert.AreEqual(text, page.LogOffButton.Text);
+
+        }
     }
 }

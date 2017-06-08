@@ -19,5 +19,10 @@ namespace Blog.FunctionalUI.Tests.Pages.ArticlePages
             Assert.AreEqual(text, page.ArticleError.Text);
 
         }
+        public static void AssertArticleContent(this ArticlePage page, string text)
+        {
+            Assert.AreEqual(text, page.Content.Text);
+
+        }
     }
 }

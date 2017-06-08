@@ -62,5 +62,34 @@ namespace Blog.FunctionalUI.Tests.Pages.ArticlePages
                 return this.Driver.FindElement(By.XPath("/html/body/div[2]/div/div/form/div[1]/ul/li[2]"));
             }
         }
+
+        public IWebElement ArticleHello
+        {
+            get
+            {
+                return this.Driver.FindElement(By.XPath("/html/body/div[2]/div/div/div[4]/article/header/h2/a"));
+            }
+        }
+        public IWebElement ArticleEditButton
+        {
+            get
+            {
+                return this.Driver.FindElement(By.XPath("/html/body/div[2]/div/article/footer/a[1]"));
+            }
+        }
+        public IWebElement EditButtonSubmit
+        {
+            get
+            {
+                return this.Driver.FindElement(By.XPath("/html/body/div[2]/div/div/form/div[4]/div/input"));
+            }
+        }
+        public IWebElement Content
+        {
+            get
+            {
+                return this.Driver.FindElement(By.XPath("/html/body/div[2]/div/div/div[4]/article/p"));
+            }
+        }
     }
 }

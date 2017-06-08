@@ -27,6 +27,6 @@ C:\Users\DISHLIEV\Documents\GitHub\Blog-Skeleton\QA-Automation-Teamwork\Blog-Ske
 C:\Users\DISHLIEV\Documents\GitHub\Blog-Skeleton\QA-Automation-Teamwork\Blog-Skeleton\Blog.FunctionalUI.Tests\bin\x86\Debug\TestStack.Seleno.xml
 C:\Users\DISHLIEV\Documents\GitHub\Blog-Skeleton\QA-Automation-Teamwork\Blog-Skeleton\Blog.FunctionalUI.Tests\bin\x86\Debug\WebDriver.xml
 C:\Users\DISHLIEV\Documents\GitHub\Blog-Skeleton\QA-Automation-Teamwork\Blog-Skeleton\Blog.FunctionalUI.Tests\bin\x86\Debug\WebDriver.Support.xml
-C:\Users\DISHLIEV\Documents\GitHub\Blog-Skeleton\QA-Automation-Teamwork\Blog-Skeleton\Blog.FunctionalUI.Tests\obj\x86\Debug\Blog.FunctionalUI.Tests.csprojResolveAssemblyReference.cache
 C:\Users\DISHLIEV\Documents\GitHub\Blog-Skeleton\QA-Automation-Teamwork\Blog-Skeleton\Blog.FunctionalUI.Tests\obj\x86\Debug\Blog.FunctionalUI.Tests.dll
 C:\Users\DISHLIEV\Documents\GitHub\Blog-Skeleton\QA-Automation-Teamwork\Blog-Skeleton\Blog.FunctionalUI.Tests\obj\x86\Debug\Blog.FunctionalUI.Tests.pdb
+C:\Users\DISHLIEV\Documents\GitHub\Blog-Skeleton\QA-Automation-Teamwork\Blog-Skeleton\Blog.FunctionalUI.Tests\obj\x86\Debug\Blog.FunctionalUI.Tests.csprojResolveAssemblyReference.cache

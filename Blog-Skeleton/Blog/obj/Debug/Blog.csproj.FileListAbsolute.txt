@@ -159,6 +159,5 @@ C:\Users\DISHLIEV\Documents\GitHub\Blog-Skeleton\QA-Automation-Teamwork\Blog-Ske
 C:\Users\DISHLIEV\Documents\GitHub\Blog-Skeleton\QA-Automation-Teamwork\Blog-Skeleton\Blog\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\DISHLIEV\Documents\GitHub\Blog-Skeleton\QA-Automation-Teamwork\Blog-Skeleton\Blog\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\DISHLIEV\Documents\GitHub\Blog-Skeleton\QA-Automation-Teamwork\Blog-Skeleton\Blog\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\DISHLIEV\Documents\GitHub\Blog-Skeleton\QA-Automation-Teamwork\Blog-Skeleton\Blog\obj\Debug\Blog.csprojResolveAssemblyReference.cache
 C:\Users\DISHLIEV\Documents\GitHub\Blog-Skeleton\QA-Automation-Teamwork\Blog-Skeleton\Blog\obj\Debug\Blog.dll
 C:\Users\DISHLIEV\Documents\GitHub\Blog-Skeleton\QA-Automation-Teamwork\Blog-Skeleton\Blog\obj\Debug\Blog.pdb

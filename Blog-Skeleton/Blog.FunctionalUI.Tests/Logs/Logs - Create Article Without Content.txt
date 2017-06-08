@@ -1,1 +1,1 @@
-[2017-06-07T11:04:25] [Passed] CreateArticleWithoutContent
+[2017-06-08T13:54:22] [Passed] CreateArticleWithoutContent

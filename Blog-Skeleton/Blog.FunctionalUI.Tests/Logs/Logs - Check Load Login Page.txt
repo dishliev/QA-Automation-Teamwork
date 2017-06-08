@@ -1,1 +1,1 @@
-[2017-06-07T11:03:43] [Passed] CheckLoadLoginPage
+[2017-06-08T13:53:52] [Passed] CheckLoadLoginPage

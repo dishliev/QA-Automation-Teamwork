@@ -18,8 +18,8 @@ namespace Blog.FunctionalUI.Tests.Pages.RegistrationPages
 
         public void NavigateTo()
         {
-            this.Driver.Navigate().GoToUrl("http://localhost:60634/Article/List");
-            Registration.Click();
+            this.Driver.Navigate().GoToUrl("http://localhost:60634/Account/Register");
+      
         }
 
         public void FillRegistrationForm(RegistrationUser user)

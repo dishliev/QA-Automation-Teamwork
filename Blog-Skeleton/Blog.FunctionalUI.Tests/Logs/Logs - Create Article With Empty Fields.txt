@@ -1,1 +1,1 @@
-[2017-06-07T11:04:15] [Passed] CreateArticleWithEmptyFields
+[2017-06-08T13:54:12] [Passed] CreateArticleWithEmptyFields

@@ -186,8 +186,10 @@ namespace Blog.FunctionalUI.Tests
 
             var regPage = new RegistrationPage(driver);
             var user = new RegistrationUserValidData(email, fullName, password, confirmPassword);
+
             regPage.NavigateTo();
             regPage.FillRegistrationFormValidData(user);
+
             regPage.AssertNavBarHelloUser("Hello " + email + "!");
 
         }
@@ -283,6 +285,18 @@ namespace Blog.FunctionalUI.Tests
             LoginWithNegativeData(TestContext.CurrentContext.Test.MethodName, "Invalid login attempt.");
         }
 
+        [LogResultToFileAttribute]
+        [Test, Property("Login", 1)]
+        public void LoginWithValidData()
+        {
+            var loginPage = new LoginPage(driver);
+            var loginUser = AccessExcelData.GetLoginTestData(TestContext.CurrentContext.Test.MethodName);
+
+            loginPage.NavigateTo();
+            loginPage.FillLoginForm(loginUser);
+          
+            loginPage.AssertValidLogin("Log off");
+        }
         //Article tetst
 
         [LogResultToFileAttribute]
@@ -311,6 +325,40 @@ namespace Blog.FunctionalUI.Tests
             CreateArticleNegativeTests(TestContext.CurrentContext.Test.MethodName, "The Content field is required.");
 
         }
+        //article edit
+        [LogResultToFileAttribute]
+        [Test, Property("Article", 1)]
+        public void ArticleEdit()
+        {
+            
+
+            var loginPage = new LoginPage(driver);
+            var loginUser = AccessExcelData.GetLoginTestData("LoginWithValidData");
+            loginPage.NavigateTo();
+            loginPage.FillLoginForm(loginUser);
+
+            var chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+            var stringChars = new char[8];
+            var random = new Random();
+
+            for (int i = 0; i < stringChars.Length; i++)
+            {
+                stringChars[i] = chars[random.Next(chars.Length)];
+            }
+            var newArticle = new String(stringChars);
+
+            var editArticle = new ArticlePage(driver);
+
+            editArticle.EditArticle(newArticle);
+
+            editArticle.AssertArticleContent(newArticle);
+
+
+
+        }
+
+
+        // Change Password tests
 
         [LogResultToFileAttribute]
         [Test, Property("ChangePassword", 1)]
@@ -376,8 +424,8 @@ namespace Blog.FunctionalUI.Tests
         public void CheckLoadRegistrationPage()
         {
             var regPage = new Page(driver);
-            regPage.NavigateTo();
 
+            regPage.NavigateTo();
             regPage.CheckRegistrationPage();
 
             regPage.AssertPageIsOpen("Register");
