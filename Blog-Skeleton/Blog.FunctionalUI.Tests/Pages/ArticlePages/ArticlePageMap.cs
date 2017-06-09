@@ -30,6 +30,7 @@ namespace Blog.FunctionalUI.Tests.Pages.ArticlePages
         {
             get
             {
+                this.Wait.Until(ExpectedConditions.ElementExists(By.XPath("/html/body/div[2]/div/div/form/div[4]/div/a")));
                 return this.Driver.FindElement(By.XPath("/html/body/div[2]/div/div/form/div[4]/div/a"));
             }
         }
@@ -37,6 +38,7 @@ namespace Blog.FunctionalUI.Tests.Pages.ArticlePages
         {
             get
             {
+                this.Wait.Until(ExpectedConditions.ElementExists(By.XPath("/html/body/div[2]/div/div/form/div[4]/div/input")));
                 return this.Driver.FindElement(By.XPath("/html/body/div[2]/div/div/form/div[4]/div/input"));
             }
         }
@@ -44,6 +46,7 @@ namespace Blog.FunctionalUI.Tests.Pages.ArticlePages
         {
             get
             {
+                this.Wait.Until(ExpectedConditions.ElementExists(By.XPath("/html/body/div[2]/div/div/form/div[1]/ul/li[1]")));
                 return this.Driver.FindElement(By.XPath("/html/body/div[2]/div/div/form/div[1]/ul/li[1]"));
             }
         }
@@ -51,6 +54,7 @@ namespace Blog.FunctionalUI.Tests.Pages.ArticlePages
         {
             get
             {
+                this.Wait.Until(ExpectedConditions.ElementExists(By.XPath("/html/body/div[2]/div/div/form/div[1]/ul/li")));
                 return this.Driver.FindElement(By.XPath("/html/body/div[2]/div/div/form/div[1]/ul/li"));
             }
         }
@@ -59,6 +63,7 @@ namespace Blog.FunctionalUI.Tests.Pages.ArticlePages
         {
             get
             {
+                this.Wait.Until(ExpectedConditions.ElementExists(By.XPath("/html/body/div[2]/div/div/form/div[1]/ul/li[2]")));
                 return this.Driver.FindElement(By.XPath("/html/body/div[2]/div/div/form/div[1]/ul/li[2]"));
             }
         }
@@ -67,6 +72,7 @@ namespace Blog.FunctionalUI.Tests.Pages.ArticlePages
         {
             get
             {
+                this.Wait.Until(ExpectedConditions.ElementExists(By.XPath("/html/body/div[2]/div/div/div[4]/article/header/h2/a")));
                 return this.Driver.FindElement(By.XPath("/html/body/div[2]/div/div/div[4]/article/header/h2/a"));
             }
         }
@@ -74,6 +80,7 @@ namespace Blog.FunctionalUI.Tests.Pages.ArticlePages
         {
             get
             {
+                this.Wait.Until(ExpectedConditions.ElementExists(By.XPath("/html/body/div[2]/div/article/footer/a[1]")));
                 return this.Driver.FindElement(By.XPath("/html/body/div[2]/div/article/footer/a[1]"));
             }
         }
@@ -81,6 +88,7 @@ namespace Blog.FunctionalUI.Tests.Pages.ArticlePages
         {
             get
             {
+                this.Wait.Until(ExpectedConditions.ElementExists(By.XPath("/html/body/div[2]/div/div/form/div[4]/div/input")));
                 return this.Driver.FindElement(By.XPath("/html/body/div[2]/div/div/form/div[4]/div/input"));
             }
         }
@@ -88,6 +96,7 @@ namespace Blog.FunctionalUI.Tests.Pages.ArticlePages
         {
             get
             {
+                this.Wait.Until(ExpectedConditions.ElementExists(By.XPath("/html/body/div[2]/div/div/div[4]/article/p")));
                 return this.Driver.FindElement(By.XPath("/html/body/div[2]/div/div/div[4]/article/p"));
             }
         }

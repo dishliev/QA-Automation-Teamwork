@@ -405,7 +405,7 @@ namespace Blog.FunctionalUI.Tests
 
         }
 
-        //loadpage
+        //page load tests
 
         [LogResultToFileAttribute]
         [Test]

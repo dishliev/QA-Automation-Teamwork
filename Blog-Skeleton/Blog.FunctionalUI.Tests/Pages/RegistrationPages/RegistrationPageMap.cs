@@ -14,6 +14,7 @@ namespace Blog.FunctionalUI.Tests.Pages.RegistrationPages
         {
             get
             {
+                this.Wait.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"Email\"]")));
                 return this.Driver.FindElement(By.XPath("//*[@id=\"Email\"]"));
             }
         }
@@ -21,6 +22,7 @@ namespace Blog.FunctionalUI.Tests.Pages.RegistrationPages
         {
             get
             {
+                this.Wait.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"FullName\"]")));
                 return this.Driver.FindElement(By.XPath("//*[@id=\"FullName\"]"));
             }
         }
@@ -28,6 +30,7 @@ namespace Blog.FunctionalUI.Tests.Pages.RegistrationPages
         {
             get
             {
+                this.Wait.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"Password\"]")));
                 return this.Driver.FindElement(By.XPath("//*[@id=\"Password\"]"));
             }
         }
@@ -35,6 +38,7 @@ namespace Blog.FunctionalUI.Tests.Pages.RegistrationPages
         {
             get
             {
+                this.Wait.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"ConfirmPassword\"]")));
                 return this.Driver.FindElement(By.XPath("//*[@id=\"ConfirmPassword\"]"));
             }
         }
@@ -42,6 +46,7 @@ namespace Blog.FunctionalUI.Tests.Pages.RegistrationPages
         {
             get
             {
+                this.Wait.Until(ExpectedConditions.ElementExists(By.XPath("/html/body/div[2]/div/div/form/div[6]/div/input")));
                 return this.Driver.FindElement(By.XPath("/html/body/div[2]/div/div/form/div[6]/div/input"));
             }
         }
@@ -58,6 +63,7 @@ namespace Blog.FunctionalUI.Tests.Pages.RegistrationPages
         {
             get
             {
+                this.Wait.Until(ExpectedConditions.ElementExists(By.XPath("/html/body/div[2]/div/div/form/div[1]/ul/li[1]")));
                 return this.Driver.FindElement(By.XPath("/html/body/div[2]/div/div/form/div[1]/ul/li[1]"));
             }
         }
@@ -65,6 +71,7 @@ namespace Blog.FunctionalUI.Tests.Pages.RegistrationPages
         {
             get
             {
+                this.Wait.Until(ExpectedConditions.ElementExists(By.XPath("/html/body/div[2]/div/div/form/div[1]/ul/li[2]")));
                 return this.Driver.FindElement(By.XPath("/html/body/div[2]/div/div/form/div[1]/ul/li[2]"));
             }
         }
@@ -72,6 +79,7 @@ namespace Blog.FunctionalUI.Tests.Pages.RegistrationPages
         {
             get
             {
+                this.Wait.Until(ExpectedConditions.ElementExists(By.XPath("/html/body/div[2]/div/div/form/div[1]/ul/li[3]")));
                 return this.Driver.FindElement(By.XPath("/html/body/div[2]/div/div/form/div[1]/ul/li[3]"));
             }
         }
@@ -80,7 +88,7 @@ namespace Blog.FunctionalUI.Tests.Pages.RegistrationPages
         {
             get
             {
-
+                this.Wait.Until(ExpectedConditions.ElementExists(By.CssSelector(" body > div.container.body-content > div > div > form > div.text-danger.validation-summary-errors > ul > li")));
                 return this.Driver.FindElement(By.CssSelector(" body > div.container.body-content > div > div > form > div.text-danger.validation-summary-errors > ul > li"));
 
             }
@@ -89,7 +97,7 @@ namespace Blog.FunctionalUI.Tests.Pages.RegistrationPages
         {
             get
             {
-
+                this.Wait.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"logoutForm\"]/ul/li[2]/a")));
                 return this.Driver.FindElement(By.XPath("//*[@id=\"logoutForm\"]/ul/li[2]/a"));
 
             }
